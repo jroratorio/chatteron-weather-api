@@ -9,3 +9,8 @@ POST /api/gettemp, payload= lat=[lat], long=[long], unit=[unit]
 
 Omission of lat/long defaults to lat/long of London.
 Omission of unit, defaults to Celsius.
+
+P.S. Add /lib/config.json with
+{
+  "googleApi":"YOUR GOOGLE MAPS API KEY"
+} 
